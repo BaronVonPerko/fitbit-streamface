@@ -1,0 +1,20 @@
+<svg>
+  <rect id="background" fill="black" />
+
+  <text text-anchor="middle" x="50%" y="40%" fill="deepskyblue" 
+    font-size="100" id="time" text-length="5">
+  </text>
+
+  <arc id="arc-bg" x="10%" y="100%-130" width="100" height="100" fill="springgreen"
+    arc-width="15" start-angle="0" sweep-angle="360" />
+
+  <arc id="arc-fg" x="10%" y="100%-130" width="100" height="100" fill="springgreen"
+    arc-width="15" start-angle="0" />
+
+  <text font-family="Tungsten-Medium" x="10%+50" y="100%-70" 
+      text-anchor="middle" fill="deepskyblue" text-length="6" id="steps">
+  </text>
+
+  <text id="date" fill="deepskyblue" font-family="Tungsten-Medium"
+    x="100%-90" y="100%-70" text-length="15" text-anchor="middle" font-size="50"></text>
+</svg>
