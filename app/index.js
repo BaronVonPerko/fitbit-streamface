@@ -37,7 +37,11 @@ clock.ontick = (evt) => {
     let hours = evt.date.getHours();
     let minutes = evt.date.getMinutes();
 
-    if(preferences.clockDisplay === "12h" && hours > 12) {
+	if(preferences.clockDisplay === "12h" && hours == 12) {
+        hours = 12;
+    }
+	
+    else if(preferences.clockDisplay === "12h" && hours > 12) {
         hours = hours - 12;
     }
 
@@ -79,3 +83,4 @@ function nameOfMonth(i) {
         return "DEC";
     }
   }
+  
