@@ -28,7 +28,6 @@ setInterval(update, 3000);
 let date = new Date();
 let month = nameOfMonth(date.getMonth());
 let day = date.getDate();
-txtDate.text = `${month} ${day}`;
 
 
 
@@ -52,7 +51,7 @@ clock.ontick = (evt) => {
     time.text = `${hours}:${minutes.toString()}`;
 }
 
-
+txtDate.text = `${month} ${day}`;
 
 
 function nameOfMonth(i) {
